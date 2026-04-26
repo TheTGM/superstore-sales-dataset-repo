@@ -46,7 +46,11 @@ El proyecto se organiza en **6 fases** según la guía del docente.
 | Skewness | 12.98 |
 | Máximo | $22,638.48 |
 
-### Fase 2 — Formulación de Hipótesis *(pendiente)*
+### Fase 2 — Formulación de Hipótesis ✅
+
+- **Decisión metodológica:** Kruskal-Wallis (no paramétrico) en lugar de ANOVA porque `Sales` tiene skewness = 12.98, violando el supuesto de normalidad.
+- **Hipótesis 1 (Segmento):** H₀ = distribución de ventas igual en Consumer, Corporate y Home Office. Test: Kruskal-Wallis.
+- **Hipótesis 2 (Ship Mode):** H₀ = distribución de ventas igual para los 4 modos de envío. Test: Kruskal-Wallis.
 
 ### Fase 3 — Preparación y Modelado de Datos *(pendiente)*
 
